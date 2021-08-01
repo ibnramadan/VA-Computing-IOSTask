@@ -6,7 +6,8 @@ target 'VAComputingIOSTask' do
   use_frameworks!
 
   # Pods for VAComputingIOSTask
-
+  pod 'RxSwift', '~> 5.1.0'
+  pod 'RxCocoa', '~> 5.1.0'
   target 'VAComputingIOSTaskTests' do
     inherit! :search_paths
     # Pods for testing

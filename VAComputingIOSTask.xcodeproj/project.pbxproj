@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,12 +12,19 @@
 		CF1AF94CE509D5FAD3E6137A /* Pods_VAComputingIOSTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD299960C5A2615B425A37C /* Pods_VAComputingIOSTaskTests.framework */; };
 		E2A259BD26B5A25000F99503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259BC26B5A25000F99503 /* AppDelegate.swift */; };
 		E2A259BF26B5A25000F99503 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259BE26B5A25000F99503 /* SceneDelegate.swift */; };
-		E2A259C126B5A25000F99503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259C026B5A25000F99503 /* ViewController.swift */; };
 		E2A259C426B5A25000F99503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A259C226B5A25000F99503 /* Main.storyboard */; };
 		E2A259C626B5A25100F99503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A259C526B5A25100F99503 /* Assets.xcassets */; };
 		E2A259C926B5A25100F99503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A259C726B5A25100F99503 /* LaunchScreen.storyboard */; };
 		E2A259D426B5A25200F99503 /* VAComputingIOSTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259D326B5A25200F99503 /* VAComputingIOSTaskTests.swift */; };
 		E2A259DF26B5A25200F99503 /* VAComputingIOSTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259DE26B5A25200F99503 /* VAComputingIOSTaskUITests.swift */; };
+		E2A259ED26B5AAD300F99503 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259EC26B5AAD300F99503 /* LocationViewController.swift */; };
+		E2A259EF26B5AD2100F99503 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259EE26B5AD2100F99503 /* CalculatorViewController.swift */; };
+		E2A259F426B5DA2000F99503 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259F326B5DA2000F99503 /* UIView.swift */; };
+		E2A259F626B5E14F00F99503 /* ToolbarPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259F526B5E14F00F99503 /* ToolbarPickerView.swift */; };
+		E2A259FC26B5FB3100F99503 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259FB26B5FB3100F99503 /* CalculatorViewModel.swift */; };
+		E2A259FE26B5FD0900F99503 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259FD26B5FD0900F99503 /* UIViewController.swift */; };
+		E2A25A0126B6146A00F99503 /* EquationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A259FF26B6146A00F99503 /* EquationCell.swift */; };
+		E2A25A0226B6146A00F99503 /* EquationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A25A0026B6146A00F99503 /* EquationCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +57,6 @@
 		E2A259B926B5A25000F99503 /* VAComputingIOSTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VAComputingIOSTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A259BC26B5A25000F99503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2A259BE26B5A25000F99503 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2A259C026B5A25000F99503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2A259C326B5A25000F99503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2A259C526B5A25100F99503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2A259C826B5A25100F99503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +67,14 @@
 		E2A259DA26B5A25200F99503 /* VAComputingIOSTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VAComputingIOSTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A259DE26B5A25200F99503 /* VAComputingIOSTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAComputingIOSTaskUITests.swift; sourceTree = "<group>"; };
 		E2A259E026B5A25200F99503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A259EC26B5AAD300F99503 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		E2A259EE26B5AD2100F99503 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		E2A259F326B5DA2000F99503 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E2A259F526B5E14F00F99503 /* ToolbarPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPickerView.swift; sourceTree = "<group>"; };
+		E2A259FB26B5FB3100F99503 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		E2A259FD26B5FD0900F99503 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		E2A259FF26B6146A00F99503 /* EquationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationCell.swift; sourceTree = "<group>"; };
+		E2A25A0026B6146A00F99503 /* EquationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EquationCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +115,6 @@
 				2C68CBD838FB779391D6F1F5 /* Pods-VAComputingIOSTaskTests.debug.xcconfig */,
 				1D4EC4E60E6BCFDE4F8FB138 /* Pods-VAComputingIOSTaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,13 +153,11 @@
 		E2A259BB26B5A25000F99503 /* VAComputingIOSTask */ = {
 			isa = PBXGroup;
 			children = (
-				E2A259BC26B5A25000F99503 /* AppDelegate.swift */,
-				E2A259BE26B5A25000F99503 /* SceneDelegate.swift */,
-				E2A259C026B5A25000F99503 /* ViewController.swift */,
-				E2A259C226B5A25000F99503 /* Main.storyboard */,
-				E2A259C526B5A25100F99503 /* Assets.xcassets */,
-				E2A259C726B5A25100F99503 /* LaunchScreen.storyboard */,
-				E2A259CA26B5A25100F99503 /* Info.plist */,
+				E2A259F226B5DA1200F99503 /* Extensions */,
+				E2A25A0326B6246600F99503 /* Core */,
+				E2A25A0426B6248000F99503 /* configuration */,
+				E2A25A0526B6249100F99503 /* Resources */,
+				E2A25A0626B624C900F99503 /* Scenes */,
 			);
 			path = VAComputingIOSTask;
 			sourceTree = "<group>";
@@ -169,6 +180,95 @@
 			path = VAComputingIOSTaskUITests;
 			sourceTree = "<group>";
 		};
+		E2A259F226B5DA1200F99503 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2A259F326B5DA2000F99503 /* UIView.swift */,
+				E2A259FD26B5FD0900F99503 /* UIViewController.swift */,
+				E2A259F526B5E14F00F99503 /* ToolbarPickerView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2A259F726B5E6FD00F99503 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				E2A259F826B5E70600F99503 /* Model */,
+				E2A259FA26B5E71100F99503 /* ViewModel */,
+				E2A259F926B5E70C00F99503 /* View */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		E2A259F826B5E70600F99503 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2A259F926B5E70C00F99503 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2A259C226B5A25000F99503 /* Main.storyboard */,
+				E2A259EE26B5AD2100F99503 /* CalculatorViewController.swift */,
+				E2A259FF26B6146A00F99503 /* EquationCell.swift */,
+				E2A25A0026B6146A00F99503 /* EquationCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2A259FA26B5E71100F99503 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E2A259FB26B5FB3100F99503 /* CalculatorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E2A25A0326B6246600F99503 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E2A259BC26B5A25000F99503 /* AppDelegate.swift */,
+				E2A259BE26B5A25000F99503 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E2A25A0426B6248000F99503 /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E2A259CA26B5A25100F99503 /* Info.plist */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		E2A25A0526B6249100F99503 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2A259C726B5A25100F99503 /* LaunchScreen.storyboard */,
+				E2A259C526B5A25100F99503 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2A25A0626B624C900F99503 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E2A25A0726B624F600F99503 /* Lacation */,
+				E2A259F726B5E6FD00F99503 /* Calculator */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E2A25A0726B624F600F99503 /* Lacation */ = {
+			isa = PBXGroup;
+			children = (
+				E2A259EC26B5AAD300F99503 /* LocationViewController.swift */,
+			);
+			path = Lacation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +280,7 @@
 				E2A259B526B5A25000F99503 /* Sources */,
 				E2A259B626B5A25000F99503 /* Frameworks */,
 				E2A259B726B5A25000F99503 /* Resources */,
+				79BA8BCE3787079D07AC385D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +318,7 @@
 				E2A259D626B5A25200F99503 /* Sources */,
 				E2A259D726B5A25200F99503 /* Frameworks */,
 				E2A259D826B5A25200F99503 /* Resources */,
+				3386CCC057C6C2883D523BF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,6 +380,7 @@
 				E2A259C926B5A25100F99503 /* LaunchScreen.storyboard in Resources */,
 				E2A259C626B5A25100F99503 /* Assets.xcassets in Resources */,
 				E2A259C426B5A25000F99503 /* Main.storyboard in Resources */,
+				E2A25A0226B6146A00F99503 /* EquationCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +423,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3386CCC057C6C2883D523BF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VAComputingIOSTask-VAComputingIOSTaskUITests/Pods-VAComputingIOSTask-VAComputingIOSTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VAComputingIOSTask-VAComputingIOSTaskUITests/Pods-VAComputingIOSTask-VAComputingIOSTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VAComputingIOSTask-VAComputingIOSTaskUITests/Pods-VAComputingIOSTask-VAComputingIOSTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5D0515DDD52AD1EC50176B5B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +460,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BA8BCE3787079D07AC385D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VAComputingIOSTask/Pods-VAComputingIOSTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VAComputingIOSTask/Pods-VAComputingIOSTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VAComputingIOSTask/Pods-VAComputingIOSTask-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA04B67EB5F46F84A5A3FF54 /* [CP] Check Pods Manifest.lock */ = {
@@ -371,9 +508,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2A259C126B5A25000F99503 /* ViewController.swift in Sources */,
+				E2A259EF26B5AD2100F99503 /* CalculatorViewController.swift in Sources */,
+				E2A259F626B5E14F00F99503 /* ToolbarPickerView.swift in Sources */,
+				E2A259FE26B5FD0900F99503 /* UIViewController.swift in Sources */,
+				E2A259FC26B5FB3100F99503 /* CalculatorViewModel.swift in Sources */,
+				E2A25A0126B6146A00F99503 /* EquationCell.swift in Sources */,
 				E2A259BD26B5A25000F99503 /* AppDelegate.swift in Sources */,
 				E2A259BF26B5A25000F99503 /* SceneDelegate.swift in Sources */,
+				E2A259F426B5DA2000F99503 /* UIView.swift in Sources */,
+				E2A259ED26B5AAD300F99503 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +622,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/macintosh/Desktop/My Apps/Tasks/VA/VAComputingIOSTask/VAComputingIOSTask/configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -534,6 +678,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/macintosh/Desktop/My Apps/Tasks/VA/VAComputingIOSTask/VAComputingIOSTask/configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -551,12 +696,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 694FHN4V7Q;
-				INFOPLIST_FILE = VAComputingIOSTask/Info.plist;
+				INFOPLIST_FILE = "/Users/macintosh/Desktop/My Apps/Tasks/VA/VAComputingIOSTask/VAComputingIOSTask/configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ramadan.VAComputingIOSTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -571,12 +718,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 694FHN4V7Q;
-				INFOPLIST_FILE = VAComputingIOSTask/Info.plist;
+				INFOPLIST_FILE = "/Users/macintosh/Desktop/My Apps/Tasks/VA/VAComputingIOSTask/VAComputingIOSTask/configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ramadan.VAComputingIOSTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
